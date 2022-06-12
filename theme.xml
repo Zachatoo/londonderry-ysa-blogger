@@ -2433,10 +2433,6 @@ display: none;
             </div>
           </b:if>
 
-          <!-- Display title on homepage -->
-          <b:if cond='data:posts.any and data:view.isHomepage'>
-            <h3 class='title'><data:messages.latestPosts/></h3>
-          </b:if>
           <!-- Filter out the featured post, but only on the homepage. -->
           <b:with value='(data:widgets.FeaturedPost filter w =&gt; w.sectionId == &quot;page_body&quot;) map (w =&gt; w.postId)' var='featuredPostIds'>
             <b:with value='data:view.isHomepage ? data:posts filter (post =&gt; post.id not in data:featuredPostIds) : data:posts' var='posts'>
@@ -3004,10 +3000,6 @@ display: none;
             </div>
           </b:if>
 
-          <!-- Display title on homepage -->
-          <b:if cond='data:posts.any and data:view.isHomepage'>
-            <h3 class='title'><data:messages.latestPosts/></h3>
-          </b:if>
           <!-- Filter out the featured post, but only on the homepage. -->
           <b:with value='(data:widgets.FeaturedPost filter w =&gt; w.sectionId == &quot;page_body&quot;) map (w =&gt; w.postId)' var='featuredPostIds'>
             <b:with value='data:view.isHomepage ? data:posts filter (post =&gt; post.id not in data:featuredPostIds) : data:posts' var='posts'>
