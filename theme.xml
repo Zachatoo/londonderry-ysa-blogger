@@ -2215,31 +2215,6 @@ display:flex
 margin-$startSide:220px;
 width:$(content.width - 240px)
 }
-.post-sidebar{
-box-sizing:border-box;
-display:block;
-font:$(body.action.font.large);
-padding-$endSide:20px;
-width:220px
-}
-.post-sidebar-item{
-margin-bottom:30px
-}
-.post-sidebar-item ul{
-list-style:none;
-padding:0
-}
-.post-sidebar-item .sharing-button{
-color:$(body.action.color);
-cursor:pointer;
-display:inline-block;
-font:$(body.action.font.large);
-line-height:normal;
-word-break:normal
-}
-.post-sidebar-labels li{
-margin-bottom:8px
-}
 body.item-view .widget.Blog .post{
 width:$(content.width - 240px)
 }
