@@ -2477,29 +2477,12 @@ display: none;
             </div>
           </b:if>
           <div class='post'>
-            <b:class cond='data:view.isMultipleItems and data:post.featuredImage' name='has-featured-image'/>
-            <b:class cond='data:view.isMultipleItems and not data:post.featuredImage' name='no-featured-image'/>
             <b:include data='post' name='postMeta'/>
-            <b:if cond='data:view.isSingleItem'>
-              <b:include name='headerByline'/>
-              <b:include data='post' name='postTitle'/>
-              <div class='post-body-container'>
-                <b:include data='post' name='postBody'/>
-              </div>
-            <b:else/>
-              <b:if cond='data:post.featuredImage'>
-                <div class='snippet-thumbnail'>
-                  <a expr:href='data:post.url'>
-                    <b:comment>Max width is 576, so max size @ 2x is 1152.</b:comment>
-                    <b:include data='{                                        image: data:post.featuredImage,                                        imageSizes: [320,490,576,1152],                                        sourceSizes: &quot;(max-width: 576px) 100vw, (max-width: 1024px) 576px, 490px&quot;                                      }' name='responsiveImage'/>
-                  </a>
-                  <b:include name='headerByline'/>
-                </div>
-              <b:else/>
-                <b:include name='headerByline'/>
-              </b:if>
-              <b:include data='post' name='postTitle'/>
-            </b:if>
+            <b:include name='headerByline'/>
+            <b:include data='post' name='postTitle'/>
+            <div class='post-body-container'>
+              <b:include data='post' name='postBody'/>
+            </div>
             <b:include data='post' name='postFooter'/>
           </div>
         </b:includable>
@@ -2615,8 +2598,6 @@ display: none;
         </b:includable>
         <b:includable id='snippetedPostContent'>
           <div class='post'>
-            <b:class cond='data:post.featuredImage' name='has-featured-image'/>
-            <b:class cond='not data:post.featuredImage' name='no-featured-image'/>
             <b:if cond='data:post.featuredImage'>
               <div class='snippet-thumbnail'>
                 <a expr:href='data:post.url'>
@@ -2969,8 +2950,6 @@ display: none;
                 <b:includable id='snippetedPostContent'>
           <b:with value='data:postDisplay.showFeaturedImage and data:post.featuredImage' var='hasImage'>
             <div class='post-content'>
-              <b:class cond='data:hasImage' name='has-featured-image'/>
-              <b:class cond='not data:hasImage' name='no-featured-image'/>
 
               <!-- Change the order and add a snippet container -->
               <b:include cond='data:hasImage' data='post' name='snippetedPostThumbnail'/>
@@ -3291,29 +3270,12 @@ display: none;
             </div>
           </b:if>
           <div class='post'>
-            <b:class cond='data:view.isMultipleItems and data:post.featuredImage' name='has-featured-image'/>
-            <b:class cond='data:view.isMultipleItems and not data:post.featuredImage' name='no-featured-image'/>
             <b:include data='post' name='postMeta'/>
-            <b:if cond='data:view.isSingleItem'>
-              <b:include name='headerByline'/>
-              <b:include data='post' name='postTitle'/>
-              <div class='post-body-container'>
-                <b:include data='post' name='postBody'/>
-              </div>
-            <b:else/>
-              <b:if cond='data:post.featuredImage'>
-                <div class='snippet-thumbnail'>
-                  <a expr:href='data:post.url'>
-                    <b:comment>Max width is 576, so max size @ 2x is 1152.</b:comment>
-                    <b:include data='{                                        image: data:post.featuredImage,                                        imageSizes: [320,490,576,1152],                                        sourceSizes: &quot;(max-width: 576px) 100vw, (max-width: 1024px) 576px, 490px&quot;                                      }' name='responsiveImage'/>
-                  </a>
-                  <b:include name='headerByline'/>
-                </div>
-              <b:else/>
-                <b:include name='headerByline'/>
-              </b:if>
-              <b:include data='post' name='postTitle'/>
-            </b:if>
+            <b:include name='headerByline'/>
+            <b:include data='post' name='postTitle'/>
+            <div class='post-body-container'>
+              <b:include data='post' name='postBody'/>
+            </div>
             <b:include data='post' name='postFooter'/>
           </div>
         </b:includable>
@@ -3500,7 +3462,7 @@ display: none;
         </b:includable>
                 <b:includable id='snippetedPostContent'>
           <div class='post'>
-            <b:class cond='data:post.featuredImage' name='has-featured-image'/>
+                      <b:class cond='data:post.featuredImage' name='has-featured-image'/>
             <b:class cond='not data:post.featuredImage' name='no-featured-image'/>
             <b:if cond='data:post.featuredImage'>
               <div class='snippet-thumbnail'>
