@@ -1320,7 +1320,7 @@ margin:12px -8px 0 -8px;
 text-transform:uppercase
 }
 .footer .widget,.main .widget{
-margin:50px 0
+margin-bottom:50px
 }
 .main .widget .title{
 text-transform:uppercase
@@ -1734,9 +1734,6 @@ width:100%
 }
 .no-posts{
 text-align:center
-}
-body.feed-view .widget.Blog .blog-posts .post-outer-container,body.item-view .widget.Blog .blog-posts .post-outer{
-margin-bottom:50px
 }
 .widget.Blog .post.no-featured-image,.widget.PopularPosts .post.no-featured-image{
 background-color:$(post.text.background.color);
