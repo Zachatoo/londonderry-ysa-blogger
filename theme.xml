@@ -2319,6 +2319,21 @@ overflow:visible;
 z-index:32
 }
 }
+/*!************************************************
+ * Custom Styles
+ **************************************************/
+a.button {
+background-color: transparent;
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+padding: 8px 15px;
+outline: none;
+text-decoration: none;
+}
+a.button:hover {
+background-color: #cfcfea;
+}
 .footer .PageList .widget-content {
 display: flex;
 justify-content: center;
