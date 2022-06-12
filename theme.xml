@@ -43,7 +43,7 @@
 
 <!-- Colors -->
 
-<Variable name="shadowColor" description="Shadow color" type="color" default="rgba(0, 0, 0, 0.1)" hideEditor="true"  value="rgba(0, 0, 0, 0.1)"/>
+<Variable name="shadowColor" description="Shadow color" type="color" default="rgba(0, 0, 0, 0.1)" hideEditor="true"  value="#000000"/>
 
 <!-- Variable definitions -->
 
@@ -52,7 +52,7 @@
 <Variable name="endSide" description="End side in blog language" type="automatic" default="right" hideEditor="true" />
 
 <Group description="Body">
-  <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) none repeat scroll top left"  value="#ffffff url(https://themes.googleusercontent.com/image?id=NwAWve25XbjW2fxmDrisiIHRE8dTOrAuuoRCO6AB6bmodnPAywrXt7E6qZEgv3sik1dTnN0On7Hc) no-repeat scroll top center /* Credit: Mae Burke (http://www.offset.com/photos/389967) */;"/>
+  <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) none repeat scroll top left"  value="#ffffff url(https://blogger.googleusercontent.com/img/a/AVvXsEggxuR12STRQhde8cfOfPEm8AQ_sWUydVYD1PWCPaKP3UZ1hBqSp3JatDd9F_x56S-ElFalKE_Ss4ohvbSMLD_BTylD1A7r5vp6NsIDWXEExXEaFh10qI_Y5qNuw60PO4eMjT9-5oaeph6YoSQq-Oga8_oPq7lXb4vPHiZxZJWvw_JvnMk7K0VPKKtK=s1600) repeat scroll bottom center"/>
   <Variable name="body.background.color" description="Background color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="body.title.font.small" description="Title font (small)" type="font" default="$(garamond20)"  value="normal 400 20px EB Garamond, serif"/>
   <Variable name="body.title.font.large" description="Title font (large)" type="font" default="$(garamond24)"  value="normal 400 24px EB Garamond, serif"/>
@@ -65,14 +65,14 @@
   <Variable name="body.link.color" description="Link color" type="color" default="#bf8b38"  value="#bf8b38"/>
   <Variable name="body.widget.title.font.small" description="Gadget title font (small)" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
   <Variable name="body.widget.title.font.large" description="Gadget title font (large)" type="font" default="$(montserrat14)"  value="normal 400 14px Montserrat, sans-serif"/>
-  <Variable name="body.widget.title.color" description="Gadget title color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="body.widget.title.color" description="Gadget title color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
   <Variable name="body.filter.background.color" description="Filter background color" type="color" default="#302c24"  value="#302c24"/>
   <Variable name="body.filter.text.font.small" description="Filter text font (small)" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
   <Variable name="body.filter.text.font.large" description="Filter text font (large)" type="font" default="$(montserrat14)"  value="normal 400 14px Montserrat, sans-serif"/>
-  <Variable name="body.filter.text.color" description="Filter text color" type="color" default="rgba(255, 255, 255, 0.54)"  value="rgba(255, 255, 255, 0.54)"/>
+  <Variable name="body.filter.text.color" description="Filter text color" type="color" default="rgba(255, 255, 255, 0.54)"  value="#ffffff"/>
   <Variable name="body.filter.keyword.font.small" description="Filter keyword font (small)" type="font" default="$(montserratBold12)"  value="normal 700 12px Montserrat, sans-serif"/>
   <Variable name="body.filter.keyword.font.large" description="Filter keyword font (large)" type="font" default="$(montserratBold14)"  value="normal 700 14px Montserrat, sans-serif"/>
-  <Variable name="body.filter.keyword.color" description="Filter keyword color" type="color" default="rgba(255, 255, 255, 0.87)"  value="rgba(255, 255, 255, 0.87)"/>
+  <Variable name="body.filter.keyword.color" description="Filter keyword color" type="color" default="rgba(255, 255, 255, 0.87)"  value="#ffffff"/>
   <Variable name="body.filter.link.font.small" description="Filter link font (small)" type="font" default="$(montserratBold12)"  value="normal 700 12px Montserrat, sans-serif"/>
   <Variable name="body.filter.link.font.large" description="Filter link font (large)" type="font" default="$(montserratBold14)"  value="normal 700 14px Montserrat, sans-serif"/>
   <Variable name="body.filter.link.color" description="Filter link color" type="color" default="#bf8b38"  value="#bf8b38"/>
@@ -81,15 +81,15 @@
 <Group description="Header">
   <Variable name="header.background.color" description="Background color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="header.title.font.small" description="Title font (small)" type="font" default="$(garamond18)"  value="normal 400 18px EB Garamond, serif"/>
-  <Variable name="header.title.font.large" description="Title font (large)" type="font" default="$(garamond36)"  value="normal 400 36px EB Garamond, serif"/>
+  <Variable name="header.title.font.large" description="Title font (large)" type="font" default="$(garamond36)"  value="normal 400 45px EB Garamond, serif"/>
   <Variable name="header.title.color" description="Title color" type="color" default="#000"  value="#000000"/>
   <Variable name="header.text.font" description="Text font" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
-  <Variable name="header.text.color" description="Text color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="header.text.color" description="Text color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
   <Variable name="header.pageList.font" description="Page list font" type="font" default="$(montserrat14)"  value="normal 400 14px Montserrat, sans-serif"/>
-  <Variable name="header.pageList.color" description="Page list color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="header.pageList.color" description="Page list color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
   <Variable name="header.pageList.selected.font" description="Page list font (selected page)" type="font" default="$(montserratBold14)"  value="normal 700 14px Montserrat, sans-serif"/>
-  <Variable name="header.pageList.selected.color" description="Page list color (selected page)" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
-  <Variable name="header.icon.color" description="Icon color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="header.pageList.selected.color" description="Page list color (selected page)" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
+  <Variable name="header.icon.color" description="Icon color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
 </Group>
 
 <Group description="Posts">
@@ -99,8 +99,8 @@
   <Variable name="post.title.color" description="Title color" type="color" default="#000"  value="#000000"/>
   <Variable name="post.text.title.color" description="Title color (text-only post)" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="post.header.font" description="Header font" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
-  <Variable name="post.header.color" description="Header color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
-  <Variable name="post.text.header.color" description="Header color (text-only post)" type="color" default="rgba(255, 255, 255, 0.54)"  value="rgba(255, 255, 255, 0.54)"/>
+  <Variable name="post.header.color" description="Header color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
+  <Variable name="post.text.header.color" description="Header color (text-only post)" type="color" default="rgba(255, 255, 255, 0.54)"  value="#ffffff"/>
   <Variable name="post.footer.font" description="Post Footer Font" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
   <Variable name="post.footer.color" description="Footer color" type="color" default="#bf8b38"  value="#bf8b38"/>
   <Variable name="post.text.font.small" description="Text font (small)" type="font" default="$(lora14)"  value="normal 400 14px Lora, serif"/>
@@ -116,7 +116,7 @@
 
 <Group description="Comments">
   <Variable name="comment.header.font" description="Header font" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
-  <Variable name="comment.header.color" description="Header color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="comment.header.color" description="Header color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
   <Variable name="comment.author.font" description="Author font" type="font" default="$(montserrat14)"  value="normal 400 14px Montserrat, sans-serif"/>
   <Variable name="comment.author.color" description="Author color" type="color" default="#000"  value="#000000"/>
   <Variable name="comment.content.font" description="Content font" type="font" default="$(lora14)"  value="normal 400 14px Lora, serif"/>
@@ -127,18 +127,18 @@
 
 <Group description="Sidebar">
   <Variable name="sidebar.background.color" description="Background color" type="color" default="#fff"  value="#ffffff"/>
-  <Variable name="sidebar.separator.color" description="Separator color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="sidebar.separator.color" description="Separator color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
   <Variable name="sidebar.profile.name.font" description="Profile name font" type="font" default="$(garamond24)"  value="normal 400 24px EB Garamond, serif"/>
   <Variable name="sidebar.profile.name.color" description="Profile name color" type="color" default="#000"  value="#000000"/>
   <Variable name="sidebar.profile.description.font" description="Profile description font" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
-  <Variable name="sidebar.profile.description.color" description="Profile description color" type="color" default="rgba(0, 0, 0, 0.87)"  value="rgba(0, 0, 0, 0.87)"/>
+  <Variable name="sidebar.profile.description.color" description="Profile description color" type="color" default="rgba(0, 0, 0, 0.87)"  value="#000000"/>
   <Variable name="sidebar.action.font" description="Action font" type="font" default="$(montserrat14)"  value="normal 400 14px Montserrat, sans-serif"/>
   <Variable name="sidebar.action.color" description="Action color" type="color" default="#bf8b38"  value="#bf8b38"/>
   <Variable name="sidebar.widget.title.font" description="Gadget title font" type="font" default="$(montserrat16)"  value="normal 400 16px Montserrat, sans-serif"/>
-  <Variable name="sidebar.widget.title.color" description="Gadget title color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="sidebar.widget.title.color" description="Gadget title color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
   <Variable name="sidebar.widget.text.font" description="Gadget text font" type="font" default="$(montserrat14)"  value="normal 400 14px Montserrat, sans-serif"/>
-  <Variable name="sidebar.widget.text.color" description="Gadget text color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
-  <Variable name="sidebar.icon.color" description="Icon color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="sidebar.widget.text.color" description="Gadget text color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
+  <Variable name="sidebar.icon.color" description="Icon color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
 </Group>
 
 <Group description="Search">
@@ -154,8 +154,8 @@
 
 <Group description="Attribution">
   <Variable name="attribution.text.font" description="Attribution text font" type="font" default="$(montserrat12)"  value="normal 400 12px Montserrat, sans-serif"/>
-  <Variable name="attribution.text.color" description="Attribution text color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
-  <Variable name="attribution.icon.color" description="Attribution icon color" type="color" default="rgba(0, 0, 0, 0.54)" hideEditor="true"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="attribution.text.color" description="Attribution text color" type="color" default="rgba(0, 0, 0, 0.54)"  value="#000000"/>
+  <Variable name="attribution.icon.color" description="Attribution icon color" type="color" default="rgba(0, 0, 0, 0.54)" hideEditor="true"  value="#000000"/>
 </Group>
 
 <Group description="Widths" selector="#main, html[dir=rtl] .sidebar-container, html[dir=ltr] .sidebar-container">
@@ -2910,7 +2910,7 @@ display: none;
               </div>
             </b:if>
             <b:section ads='true' class='main' id='page_body' name='Page Body' showaddelement='false'>
-              <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='true' title='' type='FeaturedPost' visible='false'>
+              <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='true' title='' type='FeaturedPost' version='2' visible='false'>
                 <b:widget-settings>
                   <b:widget-setting name='showSnippet'>true</b:widget-setting>
                   <b:widget-setting name='showPostTitle'>true</b:widget-setting>
@@ -2977,13 +2977,13 @@ display: none;
           <a class='thumb-link' expr:href='data:post.url'><div class='thumb hero-thumb'/></a>
         </b:includable>
               </b:widget>
-              <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' visible='true'>
+              <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                   <b:widget-setting name='style.textcolor'>#bf8b38</b:widget-setting>
                   <b:widget-setting name='showShareButtons'>false</b:widget-setting>
                   <b:widget-setting name='showCommentLink'>false</b:widget-setting>
-                  <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+                  <b:widget-setting name='style.urlcolor'>#fafafa</b:widget-setting>
                   <b:widget-setting name='showAuthor'>false</b:widget-setting>
                   <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                   <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
@@ -3243,6 +3243,11 @@ display: none;
     </div>
   </b:if>
 </b:includable>
+                <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
                 <b:includable id='post' var='post'>
           <b:if cond='data:view.isSingleItem'>
             <div class='post-sidebar'>
@@ -3347,6 +3352,11 @@ display: none;
     </h3>
   </b:if>
 </b:includable>
+                <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
                 <b:includable id='sharingButtonContent'>
           <b:message name='messages.share'/>
         </b:includable>
@@ -3410,7 +3420,7 @@ display: none;
   </section>
 </b:includable>
               </b:widget>
-              <b:widget cond='data:view.isSingleItem and data:posts any (p =&gt; p.id != data:view.postId)' id='PopularPosts1' locked='true' title='' type='PopularPosts' visible='false'>
+              <b:widget cond='data:view.isSingleItem and data:posts any (p =&gt; p.id != data:view.postId)' id='PopularPosts1' locked='true' title='' type='PopularPosts' version='2' visible='false'>
                 <b:widget-settings>
                   <b:widget-setting name='numItemsToShow'>2</b:widget-setting>
                   <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -3474,7 +3484,7 @@ display: none;
           </main>
         </div>
         <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'>
-          <b:widget id='PageList3' locked='false' title='' type='PageList' visible='true'>
+          <b:widget id='PageList3' locked='false' title='' type='PageList' visible='false'>
             <b:widget-settings>
               <b:widget-setting name='pageListJson'><![CDATA[{"7052577526107183308":{"href":"https://londonderryysa.blogspot.com/p/qr-code.html","position":0,"title":"QR Code"}}]]></b:widget-setting>
               <b:widget-setting name='homeTitle'>Home</b:widget-setting>
