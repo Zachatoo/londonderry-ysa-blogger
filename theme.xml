@@ -169,6 +169,40 @@
  */
 
 /*!************************************************
+ * Custom Styles
+ **************************************************/
+a.button {
+background-color: transparent;
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+padding: 8px 15px;
+outline: none;
+text-decoration: none;
+}
+.footer .PageList .widget-content {
+display: flex;
+justify-content: center;
+}
+.footer .PageList .widget-content ul {
+list-style: none;
+}.post-count {
+display: none;
+}
+.footer .PageList .widget-content ul {
+padding-left: 0px;
+}
+#Attribution1 {
+display: none;
+}
+.header-widget {
+display: flex;
+}
+.back-button-container,.hamburger-menu-container{
+margin-$endSide:12px;
+}
+
+/*!************************************************
  * Blogger Template Style
  * Name: Soho
  **************************************************/
@@ -1375,9 +1409,6 @@ display:-webkit-box;
 display:-webkit-flex;
 display:-ms-flexbox;
 display:flex;
--webkit-flex-wrap:wrap;
--ms-flex-wrap:wrap;
-flex-wrap:wrap;
 -webkit-box-pack:justify;
 -webkit-justify-content:space-between;
 -ms-flex-pack:justify;
@@ -1563,7 +1594,9 @@ flex:1 1 100%;
 -webkit-order:4;
 -ms-flex-order:4;
 order:4;
-overflow:hidden
+overflow:hidden;
+margin-top:auto;
+margin-bottom:auto
 }
 .sticky .blog-name{
 -webkit-box-flex:1;
@@ -2293,33 +2326,6 @@ display:none
 overflow:visible;
 z-index:32
 }
-}
-/*!************************************************
- * Custom Styles
- **************************************************/
-a.button {
-background-color: transparent;
-border-style: solid;
-border-width: 1px;
-border-radius: 4px;
-padding: 8px 15px;
-outline: none;
-text-decoration: none;
-}
-.footer .PageList .widget-content {
-display: flex;
-justify-content: center;
-}
-.footer .PageList .widget-content ul {
-list-style: none;
-}.post-count {
-display: none;
-}
-.footer .PageList .widget-content ul {
-padding-left: 0px;
-}
-#Attribution1 {
-display: none;
 }
 ]]></b:skin>
     <b:template-skin>
