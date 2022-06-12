@@ -180,6 +180,9 @@ padding: 8px 15px;
 outline: none;
 text-decoration: none;
 }
+a.button:hover {
+  background-color: $(body.link.color)20;
+}
 .footer .PageList .widget-content {
 display: flex;
 justify-content: center;
