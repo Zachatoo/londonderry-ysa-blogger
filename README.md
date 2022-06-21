@@ -18,13 +18,15 @@ When copy/pasting information from the Google document to the Blogger editor, it
 
 The announcements page has all the announcements for the upcoming week(s).
 
-<!-- TODO: Add more detailed steps to expand upon step 3  -->
+<!-- TODO: Add more detailed steps to expand upon step 4  -->
 To update the announcements page:
 1. Navigate to the [Blogger website](https://www.blogger.com).
 2. Click on the `New Post` button on the left sidebar.
     - If the `New Post` button is not visible, click on the `Posts` link in the left sidebar.
-3. Copy and paste the announcements from the "Londonderry YSA Ward Program" to the post.
-4. Click the `Publish` button in the top right corner when you are done.
+3. Set the title of the post to be the week range, starting on Sunday.
+    - Example: "June 19th - 25th" if Sunday was June 19th.
+4. Copy and paste the announcements from the "Londonderry YSA Ward Program" to the post.
+5. Click the `Publish` button in the top right corner when you are done.
 
 ### Sacrament program page
 
@@ -45,7 +47,7 @@ To update the sacrament program page:
 2. Paste the text using `ctrl shift v` (or `cmd shift v` on MacOS). This will paste without formatting.
 
 ### How do I schedule out announcements in advance?
-1. Follow steps 1-3 under [announcements](#announcements-page).
+1. Follow steps 1-4 under [announcements](#announcements-page).
 2. Click `Published On` on the right sidebar.
 3. Select the date and time you would like the announcement to be posted on.
 4. Click the `Publish` button in the top right corner.
