@@ -40,6 +40,22 @@ To update the sacrament program page:
 4. Copy and paste the program information from the "Londonderry YSA Ward Program" to the post.
 5. Click the `Update` button in the top right corner when you are done.
 
+## Files in this repository
+
+### [favicon.png](favicon.png)
+
+This is the [favicon](https://www.w3schools.com/html/html_favicon.asp) for the Blogger website. You can update the favicon under settings on [Blogger](https://www.blogger.com).
+
+### [program-template.html](program-template.html)
+<!-- TODO: Add more information about how to use the template -->
+This is the template for the sacrament program page.
+
+### [theme.xml](theme.xml)
+
+This is the Blogger theme. I took the Soho theme and made some modifications to it to make it look nicer. You can look at the history of changes that have been made [here](https://github.com/Zachatoo/londonderry-ysa-blogger/commits/main/theme.xml).
+
+Instructions on how to restore the theme from backup are [here](#ive-accidently-messed-up-the-theme-how-do-i-revert-back-to-what-it-was).
+
 ## FAQ
 
 ### When I paste text into the Blogger editor, the formatting looks weird. How do I avoid this?
@@ -55,11 +71,13 @@ To update the sacrament program page:
 
 ### I've accidently messed up the theme. How do I revert back to what it was?
 
-1. Download the `theme.xml` file from this repository.
-2. Go to `Theme`.
-3. Click the dropdown next to the `Customize` button.
-4. Click `Restore`.
-5. Click `Upload` and upload the `theme.xml` file you downloaded in step 1.
+1. Download the [theme.xml](theme.xml) file from this repository.
+    - If you can't download the file, then you can copy the text from [here](https://raw.githubusercontent.com/Zachatoo/londonderry-ysa-blogger/main/theme.xml) and then create a new .xml file and paste the text into that file using a text editor.
+2. Navigate to the [Blogger website](https://www.blogger.com).
+3. Click on the `Theme` link in the left sidebar.
+4. Click the dropdown next to the `Customize` button.
+5. Click `Restore`.
+6. Click `Upload` and upload the [theme.xml](theme.xml) file you downloaded in step 1.
 
 ### There's too many announcements (posts) on the homepage, how do I fix it?
 
