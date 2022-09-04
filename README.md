@@ -97,7 +97,7 @@ Instructions on how to restore the theme from backup are [here](#ive-accidently-
 You shouldn't need to do this unless you want to change which url you want to QR code to take people to.
 
 1. Look up a "QR code generator".
-  - This is the one I used [https://www.qr-code-generator.com/](https://www.qr-code-generator.com/).
+    - This is the one I used [https://www.qr-code-generator.com/](https://www.qr-code-generator.com/).
 2. Paste the url of the page you want the QR code to be for.
 3. Download the file (png or jpeg is easiest).
 4. Navigate to the [Blogger website](https://www.blogger.com).
