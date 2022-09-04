@@ -50,6 +50,9 @@ This is the [favicon](https://www.w3schools.com/html/html_favicon.asp) for the B
 <!-- TODO: Add more information about how to use the template -->
 This is the template for the sacrament program page.
 
+### [qr-code.png](qr-code.png)
+This is the QR code that is on [this page](https://londonderryysa.blogspot.com/p/qr-code.html).
+
 ### [theme.xml](theme.xml)
 
 This is the Blogger theme. I took the Soho theme and made some modifications to it to make it look nicer. You can look at the history of changes that have been made [here](https://github.com/Zachatoo/londonderry-ysa-blogger/commits/main/theme.xml).
