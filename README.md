@@ -51,7 +51,12 @@ This is the [favicon](https://www.w3schools.com/html/html_favicon.asp) for the B
 This is the template for the sacrament program page.
 
 ### [qr-code.png](qr-code.png)
+
 This is the QR code that is on [this page](https://londonderryysa.blogspot.com/p/qr-code.html).
+
+### [qr-code-for-sacrament-program.docx](qr-code-for-sacrament-program.docx)
+
+This is a Word document that you can download and then print out to post on the doors of the chapel.
 
 ### [theme.xml](theme.xml)
 
